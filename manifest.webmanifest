@@ -1,0 +1,10 @@
+{
+  "name": "Hello World",
+  "short_name": "helloworld",
+  "theme_color": "#ff6000",
+  "background_color": "#a4a4a4",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/index.html"
+}
