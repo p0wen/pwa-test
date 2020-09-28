@@ -3,12 +3,13 @@
 * (Please note that while this code works for demonstration purposes it is not intended for production as it will stop if it fails to load even one of the files.)" https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605  
 */ 
 
-var cacheName = "helloworld";
-var filesToCache = [
-  "/",
-  "/index.html",
-  "/assets/js/scripts/app.js",
-  "/assets/css/style.css",
+let cacheName = "helloworld";
+let Version = 'version_01';
+let filesToCache = [
+  "/pwa-test/",
+  "/pwa-test/index.html",
+  "/pwa-test/assets/js/scripts/app.js",
+  "/pwa-test/assets/css/style.css",
 ];
 
 /* Start the service worker and cache all of the app's content */
